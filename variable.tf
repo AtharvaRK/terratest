@@ -18,3 +18,15 @@ variable "name" {
     type = list(string)
     description = "value of the name"
 }
+
+variable "newname" {
+    type = map(string)
+    description = "value of the name"
+  
+}
+
+variable "newernames" {
+    type = set(string)
+    description = "value of the name"
+  
+}
